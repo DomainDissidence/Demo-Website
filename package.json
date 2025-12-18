@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish-existing": "gh-pages -d dist",
+    "publish-existing": "gh-pages -d dist --cname demo.domaindissidence.online",
     "publish": "npm run build && npm run publish-existing"
   },
   "dependencies": {
