@@ -6,6 +6,7 @@ import { ViteToml } from "vite-plugin-toml";
 
 export default defineConfig({
     // base: "/demo.domaindissidence.online/",
+    base: "/demo.domaindissidence.online/",
     plugins: [
         vue(),
         ViteToml()

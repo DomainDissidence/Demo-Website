@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish": "gh-pages -d dist --cname=demo.domaindissidence.online"
+    "publish-existing": "gh-pages -d dist",
+    "publish": "npm run build && npm run publish-existing"
   },
   "dependencies": {
     "animejs": "^4.2.2",
