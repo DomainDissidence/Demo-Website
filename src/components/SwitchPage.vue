@@ -9,7 +9,7 @@ const currentTarget = appStore.currentTargetValue;
 
 <template>
     <video id="bg-video" muted autoplay loop playsinline>
-        <source src="/video/blood.mp4#t=2" type="video/mp4">
+        <source src="./video/blood.mp4#t=2" type="video/mp4">
     </video>
 
 

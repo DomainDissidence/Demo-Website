@@ -1,5 +1,5 @@
 {
-  "name": "domaindissidencedemo",
+  "name": "domain-dissidence-demo",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@beyonk/google-fonts-webpack-plugin": "^1.7.0",
     "animejs": "^4.2.2",
     "pinia": "^3.0.4",
     "toml": "^3.0.0",
@@ -22,8 +21,6 @@
     "@vitejs/plugin-vue": "^6.0.2",
     "sass-embedded": "^1.93.3",
     "vite": "^7.2.4",
-    "vite-plugin-toml": "^0.8.5",
-    "vite-plugin-vue-devtools": "^8.0.5",
-    "vuetify": "^3.11.3"
+    "vite-plugin-toml": "^0.8.5"
   }
 }
